@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.actK.ForgotPassAct_OSK">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/imageView"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/loginbg"
+        android:scaleType="centerCrop"
+        />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:id="@+id/linearLayout2">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/edPhoneNum"
+            android:layout_gravity="center_horizontal"
+            android:background="@android:color/transparent"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            android:textSize="16sp"
+            android:hint="@string/sPhoneNumber"
+            android:singleLine="true"
+            android:maxLength="15"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="6dp"
+            android:gravity="bottom"
+            android:inputType="phone"
+            />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#FFFFFF"
+            />
+
+        <TextView
+            android:layout_width="225dp"
+            android:layout_height="50dp"
+            android:text="@string/sSend"
+            android:id="@+id/txtSendBtn"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:background="@drawable/sendbtn"
+            android:layout_marginTop="36dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sForgotText"
+            android:id="@+id/textView"
+            android:textSize="12sp"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="24dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sRemembUrPass"
+            android:id="@+id/textView3"
+            android:layout_gravity="center_horizontal"
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="26dp"
+            android:paddingTop="6dp"
+            />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,106 @@
+<resources>
+    <string name="app_name">OfferSplit</string>
+
+    <string name="sPhoneNumber">(+ area code)Phone number</string>
+    <string name="sEmail">Email</string>
+    <string name="sPassword">Password</string>
+    <string name="sForgotPassword">Forgot Password?</string>
+    <string name="sLogin">Login</string>
+    <string name="sDontHaveAC">Don\'t have an account?</string>
+    <string name="sSignup">Signup</string>
+    <string name="selse">else</string>
+
+    <string name="sInternetReq">No working internet. Please try again later</string>
+
+    <string name="sForgotText">Your password will be sent to your registered mobile number via SMS. Please Check...</string>
+    <string name="sRemembUrPass">Remembered Your Password?</string>
+    <string name="sSend">Send</string>
+
+    <string name="sFullName">Full Name</string>
+    <string name="sRepeatPassword">Repeat Password</string>
+    <string name="sshow">show</string>
+    <string name="sAlreadyhaveAC">Already have an account?</string>
+
+    <string name="popOk">OK</string>
+    <string name="popYES">YES</string>
+    <string name="popNO">NO</string>
+
+    <string name="popProUpdateSuc">Profile updated successfully</string>
+    <string name="popDealPostSuc">Deal Posted Successfully</string>
+    <string name="popDealUpdateSuc">Deal Updated Successfully</string>
+    <string name="popPassChangeSuc">Your password has been changed successfully</string>
+    <string name="popForgotSuc">Your password sent to your mobile number successfully</string>
+    <string name="popDealRejectQ">Are you sure you want to reject this deal?</string>
+    <string name="popDealDeleteQ">Are you sure you want to delete this deal?</string>
+    <string name="popDealAcceptQ">Are you sure you want to accept this deal?</string>
+    <string name="popExitQ">Confirm exit?</string>
+
+    <string name="sHOME">HOME</string>
+    <string name="sMYPROFILE">MY PROFILE</string>
+    <string name="sHISTORY">HISTORY</string>
+    <string name="sSETTINGS">SETTINGS</string>
+    <string name="sCHANGEPASSWORD">CHANGE PASSWORD</string>
+    <string name="sLOGOUT">LOGOUT</string>
+
+    <string name="sSave">Save</string>
+    <string name="sCurrentPassword">Current Password</string>
+    <string name="sNewPassword">New Password</string>
+    <string name="sConfirm">Confirm Password</string>
+    <string name="sWhistle">Whistle</string>
+    <string name="sNotification">Notification</string>
+    <string name="sRadius">Radius</string>
+
+    <string name="sNotiAcc">accepted your deal for</string>
+    <string name="sNotiRej">Reject your deal for</string>
+
+    <string name="sStoreName">Store Name</string>
+    <string name="sDescription">Description</string>
+    <string name="sPrice">Price/person</string>
+    <string name="sEndDate">End Date</string>
+    <string name="sEndTime">End Time</string>
+    <string name="sExpiry">Expiry</string>
+    <string name="sComments">Comments...</string>
+    <string name="sPostDeal">Post Deal</string>
+    <string name="sCancel">Cancel</string>
+
+    <string name="sMYDEALS">MY DEALS</string>
+    <string name="sACCEPTED">ACCEPTED</string>
+    <string name="sREJECTED">REJECTED</string>
+    <string name="sPRICEcolon">PRICE :</string>
+    <string name="sUpdate">Update</string>
+    <string name="sDelete">Delete</string>
+    <string name="sReject">Reject</string>
+    <string name="sEdit">Edit</string>
+
+    <string name="sLoading">Loading...</string>
+    <string name="sPlsWait">Please wait...</string>
+
+    <string name="facebook_app_name">OfferSplit</string>
+    <string name="cancelled">Cancelled</string>
+    <string name="permission_not_granted">Unable to perform selected action because permissions were not granted.</string>
+    <string name="ok">OK</string>
+    <string name="hello_user">Hello %1$s!</string>
+    <string name="success">Success</string>
+    <string name="successfully_posted_post">Post ID: %1$s</string>
+    <string name="error">Error</string>
+    <string name="status_update">Updating status for %1$s at %2$s</string>
+    <string name="photo_post">Photo Post</string>
+    <string name="you_picked">You picked:</string>
+    <string name="no_friends_selected">&lt;No friends selected&gt;</string>
+    <string name="no_place_selected">&lt;No place selected&gt;</string>
+    <string name="pick_seattle_place">Pick a Seattle Place</string>
+    <string name="app_id">1608344486148903</string>
+    <string name="exception">Exception: %1$s</string>
+
+    <string name="sNOTIFICATIONS">NOTIFICATIONS</string>
+    <string name="sADD_DEAL">POST DEAL</string>
+    <string name="sDEAL_DETAIL">DEAL DETAIL</string>
+    <string name="sUPDATE_DEAL">UPDATE DEAL</string>
+
+    <string name="google_maps_key">AIzaSyDcpDJyHosPjg6AQaPQXVLvemyI-I0y1u0</string>
+
+    <!--
+
+    -->
+
+</resources>

@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/imageView"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:src="@color/clrBackBlue"
+        android:scaleType="centerCrop"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorAppBlue"
+        android:id="@+id/relTop">
+
+        <ImageView
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:id="@+id/imgHomeBtn"
+            android:layout_centerVertical="true"
+            android:src="@drawable/backbtn"
+            android:padding="16dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/imgHomeBtn"
+            android:text="@string/sDEAL_DETAIL"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"
+            />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_below="@+id/relTop"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/linearLayout4">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            >
+
+            <LinearLayout
+                android:id="@+id/linUserDetail"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rejected By"
+                    android:textColor="@color/clrRejBy"
+                    android:textSize="14sp"
+                    android:id="@+id/txtRejectedBy"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="14dp"
+                    android:visibility="gone"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mahesh Kumar"
+                    android:textColor="#FFFFFF"
+                    android:textSize="17sp"
+                    android:id="@+id/txtUserName"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="9876543210"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp"
+                    android:id="@+id/txtPhoneNum"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    />
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="@drawable/textboxseptr"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="16dp"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                >
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Buy 2 get 3 Juice corn"
+                        android:textColor="#FFFFFF"
+                        android:textSize="18sp"
+                        android:id="@+id/txtTitle"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_toLeftOf="@+id/txtDate"
+                        android:layout_toStartOf="@+id/txtDate"
+                        android:paddingRight="2dp"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="XXX 00"
+                        android:textColor="@color/clrDateGrey"
+                        android:textSize="15sp"
+                        android:id="@+id/txtDate"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignBaseline="@+id/txtTitle"
+                        android:singleLine="true"
+                        android:textStyle="bold"
+                        />
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pizzahut"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp"
+                    android:id="@+id/txtStore"
+                    android:layout_marginTop="16dp"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rs.500/person"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp"
+                    android:id="@+id/txtPrice"
+                    android:layout_below="@+id/txtDes"
+                    android:layout_alignLeft="@+id/txtDes"
+                    android:layout_marginTop="16dp"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Expiry 21 Mar 11:15am"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp"
+                    android:id="@+id/txtExpIn"
+                    android:layout_below="@+id/txtDes"
+                    android:layout_alignLeft="@+id/txtDes"
+                    android:layout_marginTop="16dp"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp"
+                    android:id="@+id/txtDes"
+                    android:layout_below="@+id/txtDes"
+                    android:layout_alignLeft="@+id/txtDes"
+                    android:layout_marginTop="16dp"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/linearLayout4"
+        android:visibility="gone">
+        <RelativeLayout
+            android:id="@+id/relBottomMyDeal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            >
+            <RelativeLayout
+                android:id="@+id/relSep1"
+                android:layout_width="1px"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                />
+            <TextView
+                android:id="@+id/txtUpdateBtn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/sEdit"
+                android:textSize="18sp"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/rec_pinkbutton"
+                android:layout_toLeftOf="@+id/relSep1"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:gravity="center"
+                />
+            <TextView
+                android:id="@+id/txtDeleteBtn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/sDelete"
+                android:textSize="18sp"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/rec_redbutton"
+                android:layout_toRightOf="@+id/relSep1"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:gravity="center"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relBottomAccept"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+            <TextView
+                android:id="@+id/txtRejectBtn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/sReject"
+                android:textSize="18sp"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/rec_redbutton"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                />
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

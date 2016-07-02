@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Buy 2 get 3 Juice corn"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:id="@+id/txtTitle"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:singleLine="true"
+            android:layout_toLeftOf="@+id/txtDate"
+            android:layout_toStartOf="@+id/txtDate"
+            android:paddingRight="2dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00 XXX"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp"
+            android:id="@+id/txtDate"
+            android:layout_alignParentRight="true"
+            android:layout_alignBaseline="@+id/txtTitle"
+            android:singleLine="true"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pizzahut"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            android:id="@+id/txtDes"
+            android:layout_below="@+id/txtTitle"
+            android:layout_alignLeft="@+id/txtTitle"
+            android:layout_marginTop="6dp"
+             />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Price : Rs. 500/person"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            android:id="@+id/txtPrice"
+            android:layout_below="@+id/txtDes"
+            android:layout_alignLeft="@+id/txtDes"
+            android:layout_marginTop="6dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Expired in 20 min"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            android:id="@+id/txtRightCorner"
+            android:layout_alignParentRight="true"
+            android:layout_alignBaseline="@+id/txtPrice"
+            android:singleLine="true"
+            android:layout_toRightOf="@+id/txtPrice"
+            android:gravity="right"
+            android:paddingLeft="2dp"
+            />
+    </RelativeLayout>
+</LinearLayout>

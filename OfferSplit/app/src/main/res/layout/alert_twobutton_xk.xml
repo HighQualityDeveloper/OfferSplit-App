@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/alertbackblue"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alert Message"
+            android:id="@+id/txtAlertMsg"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:padding="32dp"
+            android:textStyle="bold"
+            android:gravity="left"
+            />
+
+        <RelativeLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            >
+            <RelativeLayout
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:id="@+id/relSep"
+                android:background="@color/clrButtonSeprtr"
+                android:layout_centerHorizontal="true"
+                />
+            <RelativeLayout
+                android:id="@+id/relYESbtn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_toLeftOf="@+id/relSep"
+                android:background="@drawable/selector_yesbtn_k"
+                android:clickable="true"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/popYES"
+                    android:textColor="#1C9C64"
+                    android:textSize="20sp"
+                    android:id="@+id/txtyes"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"
+                    android:textStyle="bold"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/relNObtn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@+id/relSep"
+                android:background="@drawable/selector_nobtn_k"
+                android:clickable="true"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/popNO"
+                    android:textColor="#A8273A"
+                    android:textSize="20sp"
+                    android:id="@+id/txtno"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"
+                    android:textStyle="bold"
+                    />
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"/>
+
+</LinearLayout>

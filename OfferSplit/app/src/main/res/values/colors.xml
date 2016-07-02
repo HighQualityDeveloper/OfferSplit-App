@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="md__transparent">#00000000</color>
+    <color name="md__defaultBackground">#FF555555</color>
+
+    <color name="colorAppRed">#BF2025</color>
+    <color name="colorAppPink">#D8384F</color>
+    <color name="colorAppPinkDark">#B2394E</color>
+    <color name="colorAppBlue">#272634</color>
+    <color name="clrBackBlue">#3B3A4C</color>
+    <color name="clrBackAlert">#181A27</color>
+    <color name="clrButtonSeprtr">#D4D4D4</color>
+    <color name="clrNotiCounter">#E11F5C</color>
+    <color name="clrSlideSeprtr">#BF1E2D</color>
+    <color name="clrHint">#808181</color>
+    <color name="clrStrip">#393848</color>
+    <color name="clrDateGrey">#A7A8AC</color>
+    <color name="clrRejBy">#A8A9AD</color>
+    <color name="clrCanBack">#D1D2D4</color>
+
+</resources>

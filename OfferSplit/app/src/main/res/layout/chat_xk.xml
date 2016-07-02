@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/imageView"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:src="@color/clrBackBlue"
+        android:scaleType="centerCrop"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorAppBlue"
+        android:id="@+id/relTop">
+
+        <ImageView
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:id="@+id/imgHomeBtn"
+            android:layout_centerVertical="true"
+            android:src="@drawable/backbtn"
+            android:padding="16dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/imgHomeBtn"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"
+            android:id="@+id/txtTop"
+            android:text="Mahesh Kumar" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/relChatBtmMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        android:background="@color/colorAppBlue"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:layout_weight="8"
+            android:layout_gravity="center"
+            >
+
+            <EditText
+                android:id="@+id/edChat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:background="@android:color/transparent"
+                android:hint=""
+                android:textSize="18sp"
+                android:textColor="#FFFFFF"
+
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+
+                android:fadeScrollbars="false"
+                android:inputType="textCapSentences|textMultiLine"
+                android:maxLines="4"
+                android:minLines="1"
+                android:scrollbars="vertical"
+
+                android:padding="6dp"
+                android:lineSpacingExtra="1dp"
+                />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="#FFFFFF"
+                />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/relChatBtmSend"
+            android:layout_width="0dp"
+            android:layout_height="55dp"
+            android:layout_weight="2"
+            android:layout_gravity="bottom"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="@string/sSend"
+                android:textColor="#909196"
+                android:textSize="16sp"
+                android:singleLine="true"
+                android:background="@drawable/rec_sendbutton"
+                android:padding="7dp"
+                />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="1px"
+                android:layout_height="45dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:scaleType="fitXY"
+                android:layout_marginLeft="0dp"
+                />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listViewChat"
+        android:layout_below="@+id/relTop"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/relChatBtmMain"
+        android:overScrollMode="never"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        />
+
+
+</RelativeLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/alertbackblue"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alert Message"
+            android:id="@+id/txtAlertMsg"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:padding="32dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            />
+
+        <RelativeLayout
+            android:id="@+id/relOKbtn"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:background="@drawable/selector_whitebtn_k"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/popOk"
+                android:textColor="@color/clrBackAlert"
+                android:textSize="20sp"
+                android:id="@+id/txtok"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                />
+        </RelativeLayout>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"/>
+</LinearLayout>
